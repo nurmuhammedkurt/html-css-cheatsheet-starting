@@ -1,8 +1,33 @@
 h1 {
     font-family:"Times New Roman";
     color: brown;
+    text-align: center;
 }
 
 p {
     font-family: cursive;
+    text-align: center;
+}
+
+table {
+    border: 2px solid darkorchid;
+    width: 650px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 2px solid;
+    background-color:springgreen
+}
+
+th{
+    background-color: darkorchid;
+    display: table-cell;
+}
+
+.code {
+    font-family: monospace;
+    background-color:coral;
 }
