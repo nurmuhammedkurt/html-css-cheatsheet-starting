@@ -1,8 +1,15 @@
 h1 {
     font-family:"Times New Roman";
-    color: brown;
+    /*color: brown;*/
     text-align: center;
 }
+
+h2 {
+    font-family: "Times New Roman";
+        color: darkorchid;
+        text-align: center;
+    }
+
 
 p {
     font-family: cursive;
@@ -30,4 +37,44 @@ th{
 .code {
     font-family: monospace;
     background-color:coral;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: darkorchid;
+    color: springgreen;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.spacer {
+    height: 25vh;
+    /* Reduced height to avoid excessive space */
+    background-color: white;
+    /* Removed gradient */
+}
+
+.giphy-embed {
+    display: block;
+
+    margin: 75px auto;
+    /* Centers the iframe horizontally */
+    width: 375px;
+    /* Set the width of the iframe */
+    height: 250px;
+    /* Set the height of the iframe */
+    border: none;
+    /* Removes the default border */
+}
+
+
+#Nur {
+    font-weight: bolder;
+    font-family:cursive;
 }
